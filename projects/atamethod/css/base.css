@@ -1,0 +1,161 @@
+@CHARSET "ISO-8859-1";
+body {
+	background-color: #FFF;
+	padding: 0;
+	margin: 0;
+	color: #000;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.downlst h6 {
+	font-size: 85%;
+}
+
+.authors {
+	display: inline-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.lstHorContents {
+	display: inline-flex;
+	justify-content:center;
+	flex-wrap: wrap;
+}
+
+.img-cnpq {
+	max-height: 40px;
+}
+
+.img-capes {
+	max-height: 40px;
+}
+
+.authors div {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.abstract {
+	margin-top: 8px;
+	text-align: justify;
+	width: 100%;
+	font-size: 90%;
+	display:block;
+}
+
+.example_img {
+	margin-top: 10px;
+	max-width: 84%;
+	margin-left: 8%;
+	margin-bottom: 5px;
+}
+
+.imgres {
+	max-width: 100%;	
+} 
+
+.bibitex {
+	padding-top: 8px;
+	font-size: 90%;
+	margin-bottom: 0;
+}
+
+.acknowledgements {
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-top: 6px;
+	font-size: 95%;
+	margin-bottom: 20px;
+}
+
+.acknowledgements-container {
+	padding-top: 8px;
+	text-align: center;
+}
+
+.card-text {
+	margin-top: 10px;
+	text-align: left;
+}
+
+.img-flowchart {
+	max-width: 100%;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.embed-responsive-item {
+	margin-bottom: 20px;
+}
+
+.rightmsg {
+	text-align: right;
+}
+
+.text {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.title {
+	margin-top: 40px;
+	font-weight: bold;
+}
+
+.mail {
+	margin-top: -10px;
+	color: rgb(0,43,184);
+}
+
+.subtitle {
+	padding-top: 30px;
+	border-bottom: 1px solid rgba(140,139,139, 0.5);
+}
+
+.picon {
+	border-radius: 5px;
+	margin-top: 8px;
+	text-align: center;
+	display: block;
+	flex-direction: column;
+	padding: 10px;
+	color: #000;
+} 
+
+.picon img {
+	margin-bottom: 4px;
+}
+
+.ifvideo {
+	margin-top: 8px;
+}
+
+.picon:hover {
+	background-color: rgba(255, 128, 128, 0.1);
+}
+
+.downlst {
+	margin-top: 8px;
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap; 
+}
+
+footer {
+	margin-top: 15px;
+	font-size: 10px;
+	color: gray;
+}
+
+.result {
+	margin-top: 8px;
+	text-align: center;
+	display: block;
+	flex-direction: column;
+	padding: 4px;
+}
+
+.hidden-xs-inline{
+    display: inline-block !important;
+}
