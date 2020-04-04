@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="../../staticfiles/libs/bootstrap-4.1.2-dist/css/bootstrap.min.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="../../staticfiles/css/google-icons.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+	<link rel="shortcut icon" href="http://www.inf.ufrgs.br/ppgc/wp-content/themes/UfrgsINF/favicon.ico" />
+
+	<script src="../../staticfiles/libs/jquery/jquery-3.1.1.min.js"></script>
+	<script src="../../staticfiles/libs/bootstrap-4.1.2-dist/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="./css/base.css"/>
+	<script src="./js/base.js"></script>
+	
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-62128783-1"></script>
+	<script>
+	   window.dataLayer = window.dataLayer || [];
+	   function gtag(){dataLayer.push(arguments);}
+	   gtag('js', new Date());
+	   gtag('config', 'UA-62128783-1');
+	</script>
+	
+	<title>Adriano Q. de Oliveira</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-12 col-lg-10">
+				<!--
+				<div class="row justify-content-center">
+					<div class="col-12 col-lg-10">
+						<div class="alert alert-success" role="alert" style="font-size: 80%; margin-top: 20px; margin-bottom: -10px;">
+							<button type="button" class="close" data-dismiss="alert" style="font-size: 100%;">&times;</button>
+							<strong>News!</strong> The images used in the experimental results are available for download. See at the bottom of the page (Downloads section).
+						</div>
+					</div>
+				</div> 
+				-->
+				<div class="row">
+					<div class="col-12 text title">
+						<h2><b>A Hierarchical Superpixel-based Approach </br>for DIBR View Synthesis</b></h2>
+						<h4>submitted to IEEE Transactions on Image Processing</h4>
+						<!--
+						<h6>
+							<span style="color: orange;"><i class="fas fa-award"></i></span> Presented at The 2019 ICASSP |
+							DOI: <a href="https://ieeexplore.ieee.org/document/8465966/" target="_blank">10.1109/LSP.2018.2870342</a>
+						</h6>
+						-->
+					</div>
+			    </div>
+			    <div class="row text">
+			    	<div class="col-12 authors">
+						<div class="author-desc" data-authorpage="https://adrianoquiliao.github.io/" data-toggle="tooltip" data-placement="bottom" title="Click to open the author's webpage">
+							<h5> Adriano Q. de Oliveira¹</h5>
+							<h6 class="mail">adriano.q.oliveira "@" ufsm.br</h6>	
+				    	</div>
+				    	<div class="author-desc" data-authorpage="https://tltsilveira.github.io/" data-placement="bottom" title="Click to open the author's webpage">
+							<h5>Thiago L. T. da Silveira²</h5>
+							<h6 class="mail">tltsilveira "@" furg.br</h6>	
+				    	</div>
+				    	<div class="author-desc" data-authorpage="http://www.inf.ufrgs.br/~mwalter/" data-placement="bottom" title="Click to open the author's webpage">
+							<h5>Marcelo Walter³</h5>
+							<h6 class="mail">marcelo.walter "@" inf.ufrgs.br</h6>	
+				    	</div>
+				    	<div class="author-desc" data-authorpage="http://www.inf.ufrgs.br/~crjung/" data-placement="bottom" title="Click to open the author's webpage">
+							<h5>Cláudio R. Jung³</h5>
+							<h6 class="mail">crjung "@" inf.ufrgs.br</h6>	
+				    	</div>
+				    </div>
+			    </div>
+			    <div class="row">
+			    	<div class="col-12 text">
+			    		<h5 style="font-size: 12pt">¹Federal University of Santa Maria (UFSM), ²Federal University of Rio Grande (FURG), ³Federal University of Rio Grande do Sul (UFRGS)</h5>
+			    		<!--
+			    		<h5 style="font-size:110%">¹Academic Coord. of Cachoeira do Sul - Federal University of Santa Maria (UFSM)</h5>
+			    		<h5 style="font-size:110%">²Center of Computational Sciences - Federal University of Rio Grande (FURG)</h5>
+			    		<h5 style="font-size:110%">³Institute of Informatics (INF) - Federal University of Rio Grande do Sul (UFRGS)</h5>
+			    		-->
+			    	</div>
+				</div>
+				<!--
+				<div class="row justify-content-center">
+					<div class="col-12 col-lg-9 col-xl-8">
+						<img src="./imgs/pipeline.png" alt="Example." class="example_img">
+					</div>	
+			    </div>
+				-->
+			    <div class="row justify-content-center">
+			    	<div class="col-12 col-xl-10 subtitle">
+			    		<h6><b>Abstract</b></h6>
+			    	</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10">
+						<span class="abstract">
+						View synthesis allows observers to explore static scenes using aligned color images and depth maps captured in a preset camera path. Among the options, depth-image-based rendering (DIBR) approaches have been effective and efficient since only one pair of color and depth map is required,saving storage and bandwidth. The present work proposes a novel DIBR pipeline for view synthesis that properly tackles the different artifacts that arise from 3D warping, such as cracks, disocclusions, ghosts and out-of-field areas. A key aspect of our contributions relies on the adaptation and usage of a hierarchical image superpixel algorithm that helps to maintain structural characteristics of the scene during the image reconstruction. We compare our approach with state-of-the-art methods, and show that it attains the best average results in two common assessment metrics under public still-image and video-sequence datasets. Visual results are also provided, illustrating the potential of our technique in real-world applications.
+			   			</span>
+			   		</div>
+				</div>
+			    <div class="row justify-content-center">
+			    	<div class="col-12 col-xl-10 subtitle">
+			    		<h6><b>Video Demonstration</b></h6>
+			    	</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-8">
+						<div class="embed-responsive embed-responsive-16by9 ifvideo">
+		  					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7ac7qTvbhCY?rel=0" allowfullscreen></iframe>
+						</div>
+			   		</div>
+				</div>
+				<div class="row justify-content-center">
+			    	<div class="col-12 col-xl-10 subtitle">
+			    		<h6><b>Visual Comparison</b></h6>
+			    	</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10">
+						<div class="result">
+						  <a href="files/result1.jpg"><img class="imgres" src="files/result1.jpg" alt="Flowerpots"></a>
+						  <p class="card-text"><b>Fig. 1:</b> Flowerpots (view 1 to 2) from Middlebury stereo datasets.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10">
+						<div class="result" id="div-res2" style="display: none;">
+						   <a href="files/result2.jpg"><img class="imgres" src="files/result2.jpg" alt="Aloe"></a>
+						   <p class="card-text"><b>Fig. 2:</b> Aloe (view 1 to 2) from Middlebury stereo datasets.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10">
+						<div class="result" id="div-res3" style="display: none;">
+						   <a href="files/result3.jpg"><img class="imgres" src="files/result3.jpg" alt="Monopoly"></a>
+						   <p class="card-text"><b>Fig. 3:</b> Monopoly (view 1 to 2) from Middlebury stereo datasets.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10">
+						<div class="result" id="div-res4" style="display: none;">
+						   <a href="files/result4.jpg"><img class="imgres" src="files/result4.jpg" alt="Bowling1"></a>
+						   <p class="card-text"><b>Fig. 4:</b> Bowling1 (view 1 to 2) from Middlebury stereo datasets.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10">
+						<div class="result" id="div-res5" style="display: none;">
+						   <a href="files/result5.jpg"><img class="imgres" src="files/result5.jpg" alt="Art"></a>
+						   <p class="card-text"><b>Fig. 5:</b> Art (view 1 to 2) from Middlebury stereo datasets.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10">
+						<div class="result" id="div-res6" style="display: none;">
+						   <a href="files/result6.jpg"><img class="imgres" src="files/result6.jpg" alt="BA43"></a>
+						   <p class="card-text"><b>Fig. 6:</b> Ballet (frame 0 - View 4 to 3) from Microsoft datasets.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10">
+						<div class="result" id="div-res7" style="display: none;">
+						   <a href="files/result7.jpg"><img class="imgres" src="files/result7.jpg" alt="BR41"></a>
+						   <p class="card-text"><b>Fig. 7:</b> Breakdancers (frame 0 - View 4 to 1) from Microsoft datasets.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10">
+						<div class="result" id="div-res8" style="display: none;">
+						   <a href="files/result8.jpg"><img class="imgres" src="files/result8.jpg" alt="PH57"></a>
+						   <p class="card-text"><b>Fig. 8:</b> PoznanHall2 (frame 0 - View 5 to 7) from Poznan datasets.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10">
+						<div class="result" id="div-res9" style="display: none;">
+						   <a href="files/result9.jpg"><img class="imgres" src="files/result9.jpg" alt="PS34"></a>
+						   <p class="card-text"><b>Fig. 9:</b> PoznanStreet (frame 0 - View 3 to 4) from Poznan datasets.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10">
+						<div class="result" id="div-res10" style="display: none;">
+						   <a href="files/result10.jpg"><img class="imgres" src="files/result10.jpg" alt="DA15"></a>
+						   <p class="card-text"><b>Fig. 10:</b> Dancer (frame 0 - View 1 to 5) from Poznan datasets.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10">
+						<center> 
+							<button type="button" class="btn btn-outline-secondary btn-sm" id="bt-showmore" style="margin-top: 5px;">
+								SHOW MORE
+							</button> 
+						</center>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+			    	<div class="col-12 col-xl-10 subtitle">
+			    		<h6><b>Bibitex</b></h6>
+			    	</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10">
+						<p class="text-left bibitex">
+							@article{paperid,<br/>
+							  &nbsp;&nbsp;&nbsp;&nbsp;author    = {Adriano Q. de Oliveira and Thiago L. T. da Silveira and Marcelo Walter and Cl{\'a}udio R. Jung},<br/>
+							  &nbsp;&nbsp;&nbsp;&nbsp;title     = {A Hierarchical Superpixel-based Approach for DIBR View Synthesis},<br/>
+							  &nbsp;&nbsp;&nbsp;&nbsp;journal   = {IEEE Transactions on Image Processing},<br/>
+							  &nbsp;&nbsp;&nbsp;&nbsp;volume    = {},<br/>
+							  &nbsp;&nbsp;&nbsp;&nbsp;number    = {},<br/>
+							  &nbsp;&nbsp;&nbsp;&nbsp;year      = {},<br/>
+							  &nbsp;&nbsp;&nbsp;&nbsp;pages     = {},<br/>
+							  &nbsp;&nbsp;&nbsp;&nbsp;month     = {}<br/>
+							}
+  						</p>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+			    	<div class="col-12 col-xl-10 subtitle">
+			    		<h6><b>Downloads</b></h6>
+			    	</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="downlst">
+				    		<a href="#" target="_blank">
+					    		<div class="picon">
+									<div>
+										<img src="../../staticfiles/imgs/pdf-icon.png" height="50px" alt="Paper.">
+									</div>
+									<div>
+						    			<h6>Full paper</h6>
+						    		</div>
+						    		<div>
+						    			<h6>(coming soon)</h6>
+						    		</div>
+					    		</div>
+				    		</a>
+				    		<div class="picon">
+								<a href="#">
+									<div>
+										<img src="../../staticfiles/imgs/mat-icon.png" height="50px" alt="Source code.">
+					    			</div>
+					    		</a>
+					    		<div>
+					    			<h6>Source Code</h6>
+					    		</div>
+					    		<div>
+					    			<h6>(coming soon)</h6>
+					    		</div>
+				    		</div>
+				    		<a href="#">
+								<div class="picon">
+									<div>
+										<img src="../../staticfiles/imgs/zip-icon.png" height="50px" alt="Middlebury Results.">
+					    			</div>
+					    			<div>
+					    				<h6>Middlebury Results</h6>
+					    			</div>
+					    			<div>
+					    				<h6>(coming soon)</h6>
+					    			</div>
+					    		</div>
+				    		</a>
+				    		<a href="#">
+				    			<div class="picon">
+				    				<div>
+										<img src="../../staticfiles/imgs/zip-icon.png" height="50px" alt="Porznan Results.">
+									</div>
+									<div>
+					    				<h6>Poznan Results</h6>
+					    			</div>
+					    			<div>
+					    				<h6>(coming soon)</h6>
+					    			</div>
+					    		</div>
+				    		</a>
+				    		<a href="#">
+								<div class="picon">
+									<div>
+										<img src="../../staticfiles/imgs/zip-icon.png" height="50px" alt="Microsoft Results.">
+									</div>
+									<div>
+					    				<h6>Microsoft Results</h6>
+					    			</div>
+					    			<div>
+					    				<h6>(coming soon)</h6>
+					    			</div>
+				    			</div>
+				    		</a>
+			    		</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+			    	<div class="col-12 col-xl-10 subtitle">
+			    		<h6><b>Acknowledgements</b></h6>
+			    	</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-md-10 lstHorContents acknowledgements-container">
+						<img class="img-cnpq" src="../../staticfiles/imgs/cnpq-horizontal.png" alt="CNPq">
+						<p class="acknowledgements">
+							Authors would like to thank CNPq and CAPES for their financial support.
+			   			</p>
+			   			<img class="img-capes" src="../../staticfiles/imgs/capes-horizontal.png" alt="CAPES">
+			   		</div>
+				</div>
+			</div>
+		</div>
+    </div>
+    <footer>
+    	<center><p>Developed by Adriano Q. de Oliveira - 2020 &copy;</p></center>
+    </footer>
+</body>
+</html>
