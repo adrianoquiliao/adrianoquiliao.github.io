@@ -45,9 +45,9 @@ body {
 }
 
 .example_img {
-	margin-top: 10px;
-	max-width: 84%;
-	margin-left: 8%;
+	margin-top: 15px;
+	max-width: 730px;
+	width: 100%;
 	margin-bottom: 5px;
 }
 
