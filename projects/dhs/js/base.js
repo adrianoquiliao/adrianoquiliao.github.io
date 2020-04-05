@@ -8,7 +8,7 @@ $( document ).ready(function() {
 
 var resultsControl = {
 	id: 1,
-	nrRes: 7,
+	nrRes: 8,
 	showMore: function() {
 		var _self = this;
 		if (_self.id<_self.nrRes) {
