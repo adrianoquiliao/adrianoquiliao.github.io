@@ -8,15 +8,16 @@ $( document ).ready(function() {
 
 var resultsControl = {
 	id: 1,
+	nrRes: 5,
 	showMore: function() {
 		var _self = this;
-		if (_self.id<10) {
+		if (_self.id<_self.nrRes) {
 			$('#div-res'+(++_self.id)).css('display', 'block');
-			if (_self.id==10)
+			if (_self.id==_self.nrRes)
 				$('#bt-showmore').html('CLOSE RESULTS');
 		} else {
 			_self.id = 1;
-			for (var i = 2; i <= 10; i++)
+			for (var i = 2; i <= _self.nrRes; i++)
 				$('#div-res'+i).css('display', 'none');
 			$('#bt-showmore').html('SHOW MORE');
 		}
